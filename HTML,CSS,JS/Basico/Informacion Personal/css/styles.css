@@ -1,0 +1,145 @@
+*{
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header{
+    background-color: grey;
+    margin: 0;
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+header > h1{
+    margin-left: 2rem;
+}
+
+nav{
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+    
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+/*Header animaciones*/
+
+ li > a:hover{
+    color: rgb(5, 5, 5);
+}
+
+/*Informacion*/
+
+#info-personal{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.info-personal_datos{
+    display: flex;
+}
+
+.info-personal_datos > img{
+    width: 30rem;
+    margin-left: 10rem;
+    border-radius: 1rem;
+}
+
+.info-personal_datos > p{
+    margin-right: 10rem;
+    margin-left: 2rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/*Realacion centimental*/
+.info-adicional{
+    padding: 0 7em;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+/*Redes Sociales*/
+.RSociales{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.fa-twitter{
+    background-color: rgb(24, 154, 168);
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+
+}
+
+.fa-twitter:hover{
+    background-color: rgb(79, 79, 79);
+    color: rgb(24, 154, 168);
+}
+
+.fa-google{
+     background-color: rgb(168, 24, 24);
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.fa-linkedin{
+    background-color: rgb(2, 10, 66);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    background-color: rgb(2, 10, 66);
+    color: white;
+    margin: 1rem;
+    padding: 1.1rem 1.3rem ;
+    border-radius: 4rem;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    color: rgb(251, 228, 228);
+}
