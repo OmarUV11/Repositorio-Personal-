@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    margin: 0;
+}
+
+h1, p {
+    color: white;
+    text-align: center; 
+    margin: 0 20rem;
+    position: relative;
+}
+
+h2{
+    margin: 1rem;
+}
+
+body{
+    
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#title{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+#description{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+
+@media (max-width: 844px){
+    #title{
+        font-size: 2.5rem;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    #description{
+        font-size: 1.5rem;
+        justify-content: center;
+        margin: 0 5rem;
+    }
+}
+
+
+
+@media (max-width: 391px){
+    #title{
+        font-size: 2rem;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    #description{
+        font-size: 1.3rem;
+        justify-content: center;
+        margin: 0 2rem;
+        
+    }
+}
+
+#survey-form{
+    background-color: rgba(56, 29, 1, 0.374);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;    
+    border-radius: 1rem;
+    margin: 5rem auto;
+    width: 45rem;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2rem;
+    
+}
+
+@media (max-width: 391px) {
+    #survey-form{
+            padding-top: 0;
+    
+    }
+}
+
+
+
+
+
+.info-label, .info-label_input{
+    display: flex;
+    margin: 0 1rem;
+    
+}
+
+
+.info-label{
+    padding-top: 1.5rem;
+    font-size: 2rem;
+
+    
+}
+
+.info-label_input{
+    height: 2.5rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+
+
+#dropdown{
+    align-items: center;
+    margin: 0 2rem;
+    padding: 5px;
+    height: 2.3rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+
+.seleccione-membresia{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin:  0 2rem;
+}
+
+.seleccione-membresia label{
+    margin: 1rem;
+}
+
+.seleccione-membresia input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: .5rem;
+}
+
+
+.contenedor-opciones label{
+    display: block;
+    text-align: start;
+    padding-left: 1rem;
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+.contenedor-opciones input[type="checkbox"]{
+        width: 1rem;
+        height: 1rem;
+        margin: .5rem;
+}
+
+
+.contenedor-final{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.contenedor-final .cometarios-encabezado{
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.contenedor-final #cometarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 40rem;
+    height: 20rem;
+}
+
+@media (max-width: 391px) {
+    .contenedor-final{
+        padding: 1.5rem;
+    }
+
+    .contenedor-final #cometarios{
+     padding: 0;
+     margin: 0;
+     width: 20rem;
+    }
+}
+
+
+
+
+#submit_form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 119, 67);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#submit_form:hover{
+    background-color: rgba(9, 119, 67, 0.356);
+    color: white;
+}

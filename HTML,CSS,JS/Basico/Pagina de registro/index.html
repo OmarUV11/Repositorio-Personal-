@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Registro de voletos</title>
+</head>
+<body>
+     
+    
+        <h1 class="title" id="title">Eurobasket Ticket</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi omnis ad ab, corrupti quibusdam atque dicta necessitatibus, doloremque vitae, ut culpa iure temporibus sapiente. Nesciunt excepturi ratione unde sint.</p>
+   
+        <form id="survey-form" action="">
+           
+            <label for="name" id="name-label" class="info-label">Nombre:</label>
+            <input class="info-label_input" type="text" name="name" id="name" placeholder="Omar David"  required>
+            <label for="email" id="email-label" class="info-label">Email:</label>
+            <input class="info-label_input" type="email" name="email" pattern="+@.com" placeholder="example@example.com"id="email" required>
+            <label for="number" id="number-label" class="info-label">Cantidad de Boletos</label>
+            <input class="info-label_input" type="number" id="number" min="1" max="100" placeholder="0">
+            
+            
+            <h2>Seleccione Ubicacion</h2>
+            <select name="dropdown" id="dropdown">
+                <option value="Primera" active>Primera Fila</option>
+                <option value="Gradas">Gradas</option>
+                <option value="Palco">Palco</option>
+                <option value="Pase">Pase VIP</option>
+            </select>
+            
+            <h2>Seleccione membrecia</h2>
+            <div class="seleccione-membresia">
+                <label>Miembro<input id="miembro" type="radio" value="miembro" name="miembro" class="name-membresia"></label>
+                <label>No miembro<input id="no-miembtro" type="radio" value="nomiembro" name="miembro" class="name-membresia"></label>
+            </div>
+            
+            <h2>Algunos productos Extras para consumir</h2>
+            <div class="contenedor-opciones">
+                <label for=""><input type="checkbox" value="Muñeco">Muñeco de mascota</label>
+                <label for=""><input type="checkbox" value="Jersys">Jersys</label>
+                <label for=""><input type="checkbox" value="Sombreros">Sombreros</label>
+                <label for=""><input type="checkbox" value="Maquillaje">Maquillaje</label>
+                <label for=""><input type="checkbox" value="Corntetas">Corntetas</label>
+                <label for=""><input type="checkbox" value="Banderas">Banderas</label>
+                <label for=""><input type="checkbox" value="Balones">Balones oficiales</label>
+            </div>
+
+
+            <div class="contenedor-final">
+                <label for="" class="cometarios-encabezado">Cometarios de la atencion <textarea name="Cometarios" id="cometarios"></textarea></label>
+            </div>
+            <input type="submit" value="Realizar compras" id="submit_form">
+        </form>
+    
+</body>
+</html>
